@@ -1,0 +1,10 @@
+{
+  "name": "fullstack-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*"
+  ],
+  "license": "MIT",
+  "private": true
+}
