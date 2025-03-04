@@ -19,6 +19,8 @@ Below video demonstrates how the UI looks like and its functionality.
 3. Typescript
 4. TailwindCSS
 5. SQLLite
+6. JWT
+7. Zod
 
 ### Pre-requisites
 
