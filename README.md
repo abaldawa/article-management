@@ -37,7 +37,7 @@ Node.js (23.x) and yarn
 
 ### Missing implementation
 
-1. Movie shared TS interfaces/zod validations between frontend and backend into a common monorepo folder so that there is single source of truth and most code can be shared.
+1. Move shared TS interfaces/zod validations between frontend and backend into a common monorepo folder so that there is single source of truth and most code can be shared.
 
 2. More component composition on the frontend so that we create separate components for `Select`, `Input` etc. instead of creating them directly in containers and not being able to reuse them if needed.
 
@@ -45,4 +45,4 @@ Node.js (23.x) and yarn
 
 4. Error handling popups on the frontend.
 
-5. Use proper REST api query library (ex. `react-query`) instead of `useCallApi`, which is fine for small application like this but it is a good practice to use established libraries which solves similar problems and provide many capabilities on top for more robustness.
+5. Use proper REST api query library (ex. `react-query`) instead of in-house `useCallApi`, which is fine for small application like this, but it is a good practice to use established libraries which solves similar problems and provide many capabilities on top for more robustness.
