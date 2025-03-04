@@ -8,9 +8,7 @@
     "build": "npm run clean && node_modules/.bin/tsc",
     "start": "npm run build && NODE_OPTIONS=--enable-source-maps node ./build/server.js",
     "start:dev": "npm run build:watch | NODE_OPTIONS=--enable-source-maps nodemon --inspect ./build/server.js",
-    "build:watch": "npm run build -- -w",
-    "dev": "node --watch --loader ts-node/esm/transpile-only src/server.ts",
-    "database": "node --watch --loader ts-node/esm/transpile-only src/database.ts"
+    "build:watch": "npm run build -- -w"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.12",
